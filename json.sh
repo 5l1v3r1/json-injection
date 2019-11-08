@@ -16,9 +16,9 @@ echo "
 }
 banner
  echo "";
- echo -e "$red [$green+$red] $off Caution: Before Continue Adjust Referer and No Referer file to payload"; 
+ echo -e "$red [$green+$red] $off Caution: Before Continue Adjust Referer and No Referer file for payload"; 
  echo "";
- echo -e "$red [$green+$red] 1:$off Generate JSON API Payloads "; 
+ echo -e "$red [$green+$red] 1:$off Generate JSON / JSONP API Payloads "; 
  echo -e "$red [$green+$red] 2:$off Show Data Capture PHP Payload File ";
  echo -e "$red [$green+$red] 3:$off Remote Payload With Referer ";
  echo -e "$red [$green+$red] 4:$off Remote Payload With No Referer ";

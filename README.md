@@ -1,5 +1,6 @@
-# json-jsonp-injection-helper
+# JSON Injection
 - Simple Bash / Csh script to help exploit json and jsonp for information gathering, data smuggling, etc
+- Flexible, code can be update, change, etc
 
 # LICENSE
 EULA

